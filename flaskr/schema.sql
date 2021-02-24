@@ -12,6 +12,16 @@ CREATE TABLE post (
   author_id INTEGER NOT NULL,
   created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   title TEXT NOT NULL,
+  vote_score INTEGER DEFAULT NULL,
   body TEXT NOT NULL,
   FOREIGN KEY (author_id) REFERENCES user (id)
+);
+
+CREATE TABLE vote (  
+  id INTEGER AUTOINCREMENT,
+  author_id INTEGER NOT NULL,
+  post_id INTEGER NOT NULL,
+  p_vote INTEGER DEFAULT NULL,
+  FOREIGN KEY (author_id) REFERENCES user (id)
+  FOREIGN KEY (post_id) REFERENCES post (id)
 );
