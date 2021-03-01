@@ -8,6 +8,13 @@ A flask web app for blogging purpose with SQLite as a database
 4. Filter blogs on basis of like/crated
 5. Like post if user is authenticated
 
+## Activate Virtual Environment
+```
+venv_flask\Scripts\activate
+cd venv_flask
+cd flaskapp
+```
+
 ## Initialize DB
 
 - Aadded a flask management command utility with click
