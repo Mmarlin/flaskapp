@@ -52,7 +52,7 @@ set FLASK_ENV=development
 
 flask run
 ```
-## Check the output of the at the below given URL
+## Check the output at the below given URL
 Link - http://127.0.0.1:5000
 
 ## Reference Screenshot
