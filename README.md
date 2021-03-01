@@ -11,7 +11,9 @@ A flask web app for blogging purpose with SQLite as a database
 ## Activate Virtual Environment
 ```
 venv_flask\Scripts\activate
+
 cd venv_flask
+
 cd flaskapp
 ```
 
