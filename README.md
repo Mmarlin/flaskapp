@@ -8,6 +8,19 @@ A flask web app for blogging purpose with SQLite as a database
 4. Filter blogs on basis of like/crated
 5. Like post if user is authenticated
 
+## Installation guidelines
+
+- Create virtual environment
+```
+python -m venv /path/to/new/virtual/environment
+```
+
+- Use pip package manager for installation of dependencies
+```
+pip install Flask
+
+```
+
 ## Activate Virtual Environment
 ```
 venv_flask\Scripts\activate
