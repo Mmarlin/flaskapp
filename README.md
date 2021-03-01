@@ -18,7 +18,6 @@ python -m venv /path/to/new/virtual/environment
 - Use pip package manager for installation of dependencies
 ```
 pip install Flask
-
 ```
 
 ## Activate Virtual Environment
@@ -57,4 +56,5 @@ flask run
 Link - http://127.0.0.1:5000
 
 ## Reference Screenshot
+![Alt text](/images/v1.png "Optional title")
 
