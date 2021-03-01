@@ -56,5 +56,21 @@ flask run
 Link - http://127.0.0.1:5000
 
 ## Reference Screenshot
-![Alt text](/images/v1.png "Optional title")
 
+-  Index/Home view 
+![Alt text](/images/v4.png)
+
+- If not a use need to register to post - Registration view
+![Alt text](/images/v5.png)
+
+- If already a user - Login view 
+![Alt text](/images/v6.png)
+
+- User after loggin in 
+![Alt text](/images/v1.png)
+
+- New post view for authenticated users
+![Alt text](/images/v2.png)
+
+- Update/Delete post view for authenticated users
+![Alt text](/images/v3.png)
