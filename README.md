@@ -10,14 +10,26 @@ A flask web app for blogging purpose with SQLite as a database
 
 ## Installation guidelines
 
+- Make a new directory 
+```
+mkdir venv_flask
+
+cd venv_flask
+```
+
 - Create virtual environment
 ```
-python -m venv /path/to/new/virtual/environment
+python -m venv venv_flask
 ```
 
 - Use pip package manager for installation of dependencies
 ```
 pip install Flask
+```
+
+- Clone the existing repository
+```
+git clone https://github.com/Mmarlin/flaskapp
 ```
 
 ## Activate Virtual Environment
