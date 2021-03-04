@@ -41,6 +41,11 @@ cd venv_flask
 cd flaskapp
 ```
 
+## Install the dependencies for the project
+```
+python install -r requirements.txt
+```
+
 ## Initialize DB
 
 - Aadded a flask management command utility with click
