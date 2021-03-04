@@ -22,11 +22,6 @@ cd venv_flask
 python -m venv venv_flask
 ```
 
-- Use pip package manager for installation of dependencies
-```
-pip install Flask
-```
-
 - Clone the existing repository
 ```
 git clone https://github.com/Mmarlin/flaskapp
@@ -42,6 +37,7 @@ cd flaskapp
 ```
 
 ## Install the dependencies for the project
+- Use pip package manager for installation of dependencies
 ```
 pip install -r requirements.txt
 ```
