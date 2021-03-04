@@ -43,7 +43,7 @@ cd flaskapp
 
 ## Install the dependencies for the project
 ```
-python install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Initialize DB
